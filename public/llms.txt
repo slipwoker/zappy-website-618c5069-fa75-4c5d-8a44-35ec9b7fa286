@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+קהילת הנשים הפרימיום לשיער כסוף ולבן. 17,000 נשים כבר בחרו בחופש, בסטייל ובעצמה. הצטרפי לתנועה שמגדירה מחדש את היופי.
+
+### פילוסופיה
+https://example.com/philosophy
+הפילוסופיה של House of Silver הופכת את המעבר לשיער כסוף לאקט של העצמה נשית. גלי כיצד זהות, יופי ואומץ נפגשים לכדי אורח חיים שלם.
+
+### אקוסיסטם
+https://example.com/ecosystem
+מגזין Hair Lab, אבחון כימי, מסלולי מסע אישיים וקוויז פסיכולוגי — האקוסיסטם של house of silver מלווה אותך בכל שלב בתהליך המעבר.
+
+### צור קשר
+https://example.com/contact
+מותגי יופי, נשים בתהליך מעבר, או סתם סקרנית? צרי קשר עם House of Silver ונמצא יחד את הדרך הנכונה עבורך להצטרף לקהילה.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
