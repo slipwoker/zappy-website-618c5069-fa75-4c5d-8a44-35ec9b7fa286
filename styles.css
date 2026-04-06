@@ -8325,6 +8325,142 @@ body.accessibility-widget-visible ._access-menu {
   opacity: 0.75;
 }
 
+.house-of-silver-hero-section.hos-fullscreen-hero {
+  position: relative;
+  padding: 0 !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--background-color);
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-bg-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  aspect-ratio: unset !important;
+  border-radius: 0 !important;
+  max-height: none !important;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 35, 40, 0.15) 0%,
+    rgba(30, 35, 40, 0.45) 60%,
+    rgba(30, 35, 40, 0.72) 100%
+  );
+  z-index: 1;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-center-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+  direction: rtl;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-city-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(72px, 12vw, 140px);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: #FBFAF7;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-shadow: 0 2px 24px rgba(30,35,40,0.35);
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-tagline {
+  font-family: 'Avenir Next', 'Helvetica Neue', sans-serif;
+  font-size: clamp(16px, 2.2vw, 22px);
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(251, 250, 247, 0.82);
+  margin: 0;
+  padding: 0;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-cta-btn {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: 'Avenir Next', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #FDF9F5 !important;
+  background: var(--accent) !important;
+  border: 1px solid var(--accent) !important;
+  border-radius: 2px;
+  padding: 15px 36px;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(199, 143, 155, 0.35);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-cta-btn:hover {
+  background: #b87a87 !important;
+  border-color: #b87a87 !important;
+  box-shadow: 0 10px 32px rgba(199, 143, 155, 0.5);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+.house-of-silver-hero-section.hos-fullscreen-hero {
+  min-height: 100svh;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-cta-btn {
+  font-size: 14px;
+  padding: 14px 24px;
+  white-space: normal;
+  text-align: center;
+  max-width: 280px;
+}
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero {
+  min-height: 100vh !important;
+  height: 100vh !important;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-bg-img {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-center-content {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 100% !important;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
