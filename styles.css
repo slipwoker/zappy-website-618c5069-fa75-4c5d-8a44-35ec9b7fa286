@@ -8461,6 +8461,17 @@ body.accessibility-widget-visible ._access-menu {
   width: 100% !important;
 }
 
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-city-title {
+  font-size: clamp(100px, 18vw, 200px) !important;
+  letter-spacing: 0.1em !important;
+  line-height: 1 !important;
+}
+
+.house-of-silver-hero-section.hos-fullscreen-hero .hos-hero-tagline {
+  font-size: clamp(20px, 3vw, 32px) !important;
+  letter-spacing: 0.28em !important;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
